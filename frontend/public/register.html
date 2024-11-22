@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="/frontend/src/assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="/frontend/src/assets/css/register.css">
+    <!-- Logo -->
+    <link rel="icon" type="text/icon" href="/frontend/src/assets/logo/logo.svg">
+    <!-- Title -->
+    <title>Daftar</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="">
+            <h3>Daftar</h3>
+            <input type="text" name="full-name" required placeholder="Masukkan nama lengkap">
+            <input type="email" name="email" required placeholder="Masukkan email">
+            <input type="password" name="password" required placeholder="Masukkan password">
+            <input type="password" name="confirm-password" required placeholder="Konfirmasi password">
+            <select name="user-type" id="">
+                <option value="admin">Pengunjung Umum</option>
+                <option value="user">Civitas Akademik</option>
+            </select>
+            <input type="submit" name="submit" value="Daftar" class="form-btn" src="dashboard.html">
+            <p>Sudah memiliki akun? <a href="login.html">Masuk</a></p>
+            <p><a href="index.html">Kembali</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

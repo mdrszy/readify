@@ -1,0 +1,67 @@
+body {
+    background-image: url("/frontend/src/assets/backgrounds/RegisterLoginBackground.svg");
+}
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.form-container form {
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(140, 140, 140);
+    text-align: center;
+    background: white;
+    width: 500px;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-container form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container form .form-btn {
+    background: #ffecdf;
+    color: #FF6500;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+    background-color: #FF6500;
+    color: white;
+}
+
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.form-container form p a {
+    color: #FF6500;
+    text-decoration: none;
+}
+
+.form-container form p a:hover {
+    text-decoration: underline;
+}
