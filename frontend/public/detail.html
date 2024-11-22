@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="/frontend/src/assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="/frontend/src/assets/css/detail.css">
+    <!-- Logo -->
+    <link rel="icon" type="text/icon" href="/frontend/src/assets/logo/logo.svg">
+    <!-- Title -->
+    <title>Readify - Detail</title>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <nav>
+            <div class="logo-nav"><a href="dashboard.html"><img src="/frontend/src/assets/logo/logo.svg" alt=""></a></div>
+            <div class="logo-word"><a href="dashboard.html">Readify</a></div>
+            <input type="text" placeholder="Cari..." class="search-bar">
+            <div class="logo-notification"><a href=""><img src="/frontend/src/assets/icons/notification.svg" alt=""></a></div>
+
+            <!-- Dropdown -->
+            <div class="profile-dropdown">
+                <div onclick="toggle()" class="profile-dropdown-btn">
+                  <div class="profile-img">
+                    <i class="fa-solid fa-circle"></i>
+                  </div>
+        
+                  <span>Dzaky
+                    <i class="fa-solid fa-angle-down"></i>
+                  </span>
+                </div>
+        
+                <ul class="profile-dropdown-list">
+                  <li class="profile-dropdown-list-item">
+                    <a href="profile.html">
+                      Edit Profile
+                    </a>
+                  </li>
+                  <li class="profile-dropdown-list-item">
+                    <a href="bookmark.html">
+                      Bookmark
+                    </a>
+                  </li>
+                  <li class="profile-dropdown-list-item">
+                    <a href="loan.html">
+                      Peminjaman
+                    </a>
+                  </li>
+                  <li class="profile-dropdown-list-item">
+                    <a href="fine.html">
+                      Denda
+                    </a>
+                  </li>
+                  <li class="profile-dropdown-list-item">
+                    <a href="index.html">
+                      Log out
+                    </a>
+                  </li>
+                </ul>
+        </nav>
+     </header>
+    <!-- Main -->
+     <main>
+
+     </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="ul-footer">
+            <li><a href="">Syarat & Ketentuan</a></li>
+            <li><a href="">Kebijakan Privasi</a></li>
+            <li><a href="">Bantuan</a></li>
+            <li>© 2024 Readify</li>
+        </ul>
+    </footer>
+
+    <!-- Script -->
+     <script src="/frontend/src/components/Profile-Dropdown.js"></script>
+</body>
+</html>
