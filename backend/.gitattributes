@@ -1,0 +1,17 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+# Enforce LF for all text files
+* text=auto
+
+# Explicitly set LF for specific file types
+*.java eol=lf
+*.xml eol=lf
+*.properties eol=lf
+*.sh eol=lf
+
+# Explicitly set CRLF for Windows-specific files
+*.cmd eol=crlf
+*.bat eol=crlf
+
+*.gitattributes text eol=lf
